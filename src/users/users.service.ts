@@ -39,7 +39,6 @@ export class UsersService {
       userId: nextId,
       username: dto.username,
       email: dto.email,
-      password: hashedPassword,
     };
 
     this.users.push(newUser);
